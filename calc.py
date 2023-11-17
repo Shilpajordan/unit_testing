@@ -1,19 +1,20 @@
+class Calculator:
 
-def add(x , y):
-    """ Add function"""
-    return x + y
-
-
-def subtract(x , y):
-    """ Subtract function"""
-    return x - y
+    def add(self,x, y):
+        """ Add function"""
+        return x + y
 
 
-def multiply(x , y):
-    """ Multiply function"""
-    return x * y
+    def subtract(self,x , y):
+        """ Subtract function"""
+        return x - y
 
 
-def divide(x , y):
-    """ Divide function"""
-    return x / y
+    def multiply(self,x , y):
+        """ Multiply function"""
+        return x * y
+
+
+    def divide(self,x , y):
+        """ Divide function"""
+        return x / y
