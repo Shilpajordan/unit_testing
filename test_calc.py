@@ -20,6 +20,16 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.subtract(-1,-1), 0)
 
 
+    def test_multiply(self):
+        self.assertEqual(calc.subtract(10,5), 50)
+        self.assertEqual(calc.subtract(-1,1), -1)
+        self.assertEqual(calc.subtract(-1,-1), 1)
+
+    def test_divide(self):
+        self.assertEqual(calc.subtract(10,5), 2)
+        self.assertEqual(calc.subtract(-1,1), -2)
+        self.assertEqual(calc.subtract(-1,-1), 0)    
+
 
 if __name__ == '__main__':
-    unittest.main
+    unittest.main()
